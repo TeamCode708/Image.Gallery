@@ -1,0 +1,108 @@
+<html>
+
+<head>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700">
+	<link rel="stylesheet" href="Style.css">
+	<title>Photo Gallery</title>
+</head>
+
+<body>
+	<nav class="navbar-inverse my_nav_bar">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Photo Gallery</a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+				<li><a href="#welcome">Home</a></li>
+				<li><a href="#image">Images</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	<section id="welcome">
+		<h1>Welcome To Photo Gallery</h1>
+		<p>Select Your Bollywood Movie To See The Images</p>
+		<select class="Bollywood">
+			<option value="BollywoodMovies">Bollywood Movies</option>
+			<option value="Super30">Super 30</option>
+			<option value="Thappad">Thappad</option>
+			<option value="Gunjan Saxena: The Kargil Girl">Gunjan Saxena: The Kargil Girl</option>
+		</select>
+		<p>Select Your Hollywood Movie To See The Images</p>
+		<select class="hollywood">
+			<option value="HollywoodMovies">Hollywood Movies</option>
+			<option value="Interstellar">Interstellar</option>
+			<option value="TheChristmasChronicles">The Christmas Chronicles</option>
+			<option value="JingleJangle">Jingle Jangle</option>
+		</select>
+	</section>
+	<section id="image">
+		<h1>Grid Gallery</h1>
+		<span class="Grid">
+			<div>
+				<img src="Hrithik%20Roshan.jpg">
+				<img src="Hrithik%20Rosha..jpeg">
+				<img src="Super%2030-1.webp">
+			</div>
+			<div>
+				<img src="Super%2030-2.jpg">
+				<img src="Gunjan%20Saxena-1.jpg">
+				<img src="Gunjan%20Saxena-2.jpg">
+			</div>
+			<div>
+				<img src="Thappad-2.jpg">
+				<img src="Taapse%20Pannu.webp">
+				<img src="Thappad-1.jpg">
+			</div>
+		</span>
+		<div class="container">
+			<h1>Sliding Gallery</h1>
+			<div id="myCarousel" class="carousel slide">
+				<div class="carousel-inner">
+					<div class="item active">
+						<center><a href="https://studio.code.org/projects/spritelab/8_uhLlqLNtomNg9EynRhMMPKPO4mBUhLIDXKVpa_RkE" target="_blank"><img class="img-responsive" src="Interstellar.jpg"></a>
+							<div class="carousel-content">
+								<p>Interstellar</p>
+							</div>
+						</center>
+					</div>
+					<div class="item">
+						<center><a href="https://studio.code.org/projects/spritelab/IKE-Fqlvm1JtOxmnENOp9ng8ylP5apY_YKHynolxigk" target="_blank"><img class="img-responsive" src="Interstellar%202.jpg"></a>
+							<div class="carousel-content">
+								<p>Interstellar</p>
+							</div>
+						</center>
+					</div>
+				</div>
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+			</div>
+		</div>
+	</section>
+	<section id="contact">
+		<h1>Contact</h1>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0" allowfullscreen=""></iframe>
+
+		<hr style="width: 100%">
+		<img src="Cutie Pie.png" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+		<h3>Janhvi Parshar</h3>
+		<div class="contact_1">
+
+			<a href="mailto:parasharjanhvi102@gmail.com?Subject=Hello">
+				<h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;parasharjanhvi102@gmail.com</h5>
+			</a>
+
+			<a href="#">
+				<h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;myinstagramid</h5>
+			</a>
+		</div>
+	</section>
+</body>
+
+</html>
